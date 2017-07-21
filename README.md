@@ -42,7 +42,7 @@ Following device servers are installed and started by default:
 * facadedevice
 * PyModbus
 
-This image is also a part of bigger structure, more info [here](https://github.com/synchrotron-solaris/tango-workspace/tree/feature)
+This image is also a part of bigger structure, more info [here](https://github.com/synchrotron-solaris/tango-workspace)
 
 # Acknowledgements
 
