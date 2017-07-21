@@ -2,7 +2,7 @@
 
 # Supported tags and respective `Dockerfile` links
 
-* [`0.1`, `0.2`, `0.3`, `latest` (*Dockerfile*)](https://github.com/synchrotron-solaris/tango-cs-docker/blob/dev_libraries/Dockerfile)
+* [`0.1`, `0.2`, `0.3`, `latest` (*Dockerfile*)](https://github.com/synchrotron-solaris/tango-cs-docker/blob/master/Dockerfile)
 
 # What is Tango Control System?
 
@@ -42,7 +42,7 @@ Following device servers are installed and started by default:
 * facadedevice
 * PyModbus
 
-This image is also a part of bigger structure, more info [here](https://github.com/synchrotron-solaris/tango-workspace/tree/feature)
+This image is also a part of bigger structure, more info [here](https://github.com/synchrotron-solaris/tango-workspace)
 
 # Acknowledgements
 
