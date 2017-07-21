@@ -40,7 +40,7 @@ Following device servers are installed and started by default:
 * TangoAccessControl
 * TangoTest
 * facadedevice
-* modbusTk
+* PyModbus
 
 This image is also a part of bigger structure, more info [here](https://github.com/synchrotron-solaris/tango-workspace/tree/feature)
 
