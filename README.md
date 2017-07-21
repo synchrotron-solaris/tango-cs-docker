@@ -2,7 +2,7 @@
 
 # Supported tags and respective `Dockerfile` links
 
-* [`0.1`, `0.2`, `0.3`, `latest` (*Dockerfile*)](https://github.com/synchrotron-solaris/tango-cs-docker/blob/dev_libraries/Dockerfile)
+* [`0.1`, `0.2`, `0.3`, `latest` (*Dockerfile*)](https://github.com/synchrotron-solaris/tango-cs-docker/blob/master/Dockerfile)
 
 # What is Tango Control System?
 
