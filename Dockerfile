@@ -20,8 +20,10 @@ RUN yum -y install epel-release \
     tango-accesscontrol \
     tango-test \
     python-pytango \
+    gcc \
+    python-virtualenv \
  && pip install facadedevice \
- && pip install modbus_tk \
+ && pip install -U pymodbus \
  && rpm -e --nodeps mariadb mariadb-server \
  && rpm -qa 'perl*' | xargs rpm -e --nodeps
 
