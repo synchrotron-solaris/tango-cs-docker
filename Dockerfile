@@ -21,6 +21,7 @@ RUN yum -y install epel-release \
     tango-test \
     python-pytango \
     gcc \
+    gcc-c++ \
     python-virtualenv \
  && pip install facadedevice \
  && pip install -U pymodbus \
