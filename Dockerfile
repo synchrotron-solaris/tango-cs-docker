@@ -9,7 +9,7 @@ ADD resources/tango_register_device /usr/local/bin/
 ADD resources/wait-for-it.sh /usr/local/bin/
 
 RUN yum -y install epel-release \
- && yum -y install supervisor zeromq \
+ && yum -y install supervisor zeromq  python-futures python-pip \
  && yum-config-manager --save --setopt=epel.includepkgs="zeromq libsodium openpgm" \
  && yum -y install \
     libtango9 \
@@ -19,6 +19,11 @@ RUN yum -y install epel-release \
     tango-db \
     tango-accesscontrol \
     tango-test \
+    python-pytango \
+    gcc \
+    python-virtualenv \
+ && pip install facadedevice \
+ && pip install -U pymodbus \
  && rpm -e --nodeps mariadb mariadb-server \
  && rpm -qa 'perl*' | xargs rpm -e --nodeps
 
