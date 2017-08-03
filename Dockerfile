@@ -24,6 +24,7 @@ RUN yum -y install epel-release \
     python-virtualenv \
  && pip install facadedevice \
  && pip install -U pymodbus \
+ && pip install sphinx \
  && rpm -e --nodeps mariadb mariadb-server \
  && rpm -qa 'perl*' | xargs rpm -e --nodeps
 
